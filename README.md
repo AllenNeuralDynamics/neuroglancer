@@ -1,3 +1,4 @@
+
 Neuroglancer: Web-based volumetric data visualization
 -----------------------------------------------------
 
@@ -9,6 +10,15 @@ Neuroglancer: Web-based volumetric data visualization
 Neuroglancer is a WebGL-based viewer for volumetric data.  It is capable of displaying arbitrary (non axis-aligned) cross-sectional views of volumetric data, as well as 3-D meshes and line-segment based models (skeletons).
 
 This is not an official Google product.
+
+# Deploying Docker container to Google Cloud with service name:
+```
+> gcloud run deploy --source .
+Service name (neuroglancer):  aind-neuroglancer
+Please specify a region:
+  ...
+Please enter numeric choice or text value (must exactly match list item):  32
+```
 
 # Examples
 
